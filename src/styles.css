@@ -1,6 +1,6 @@
 body {
     font-family: "Poppins", sans-serif;
-    background: #272044;
+    background: #20130F;
   }
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -15,6 +15,7 @@ header {
   header h1 {
     font-weight: 700;
     font-size: 96px;
+    color: goldenrod;
     line-height: 1;
     margin: 30px 0;
   }
@@ -39,7 +40,7 @@ header {
     font-size: 14px;
     line-height: 1.5;
     text-align: center;
-    color: #272044;
+    color: #20130F;
     padding: 16px 32px;
     margin-top: 32px;
     display: inline-block;
@@ -66,10 +67,6 @@ header {
       font-size: 12px;
     }
   }
-h1{
-    color: goldenrod;
-    font-size: 24px;
-}
 
 
 .container {
@@ -77,7 +74,6 @@ h1{
     margin: 0 auto;
   }
   footer {
-    font-family: "Poppins", sans-serif;
     color: white;
   }
   footer a {
