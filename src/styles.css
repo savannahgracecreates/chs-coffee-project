@@ -10,6 +10,7 @@ body {
   .grid {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
+    grid-gap: 64px;
   }
   section {
     max-width: 1200px;
@@ -86,7 +87,6 @@ header {
 font-weight: 700;
 font-style: Bold;
 font-size: 20px;
-leading-trim: NONE;
 line-height: 100%;
 letter-spacing: 0%;
 
@@ -95,7 +95,6 @@ letter-spacing: 0%;
     font-weight: 400;
     font-size: 16px;
     opacity: 0.7;
-    margin-right: 20px;
     line-height: 24px;
   }
   
