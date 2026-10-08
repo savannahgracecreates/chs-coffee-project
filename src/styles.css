@@ -2,19 +2,20 @@ body {
     font-family: "Poppins", sans-serif;
     background: #20130F;
   }
+ 
   .container {
     max-width: 1400px;
     margin: 0 auto;
   }
-
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+  }
   section {
     max-width: 1200px;
     margin: 0 auto;
   }
-  .grid {
-    display:grid;
-    grid-template-columns: 1fr 2fr 2fr;
-  }
+
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
       url("../images/BadBunnies-OneExposure-Edit.webp");
