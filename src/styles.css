@@ -49,8 +49,20 @@ header {
     text-transform: uppercase;
     background: white;
   }
+
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  footer {
+    color: white;
+    background-image: linear-gradient(rgba(32.19.15.0.9)), (rgba(32.19.15.0.9)) url('../images/secondstate.webp');
+  }
+  footer a {
+    color:aliceblue;
+  }
   
-  @media (max-width: 900px) {
+  @media (max-width: 960px) {
     header {
       padding: 60px 0;
     }
@@ -69,14 +81,5 @@ header {
   }
 
 
-.container {
-    max-width: 1400px;
-    margin: 0 auto;
-  }
-  footer {
-    color: white;
-  }
-  footer a {
-    color:aliceblue;
-  }
+
   
