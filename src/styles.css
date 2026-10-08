@@ -2,6 +2,16 @@ body {
     font-family: "Poppins", sans-serif;
     background: #20130F;
   }
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  section {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
       url("../images/BadBunnies-OneExposure-Edit.webp");
@@ -50,10 +60,7 @@ header {
     background: white;
   }
 
-  .container {
-    max-width: 1400px;
-    margin: 0 auto;
-  }
+
   footer {
     color: white;
     background-image: linear-gradient(
@@ -69,6 +76,15 @@ header {
 
   footer a {
     color:aliceblue;
+  }
+  footer h3{
+font-weight: 700;
+font-style: Bold;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+
   }
   
   @media (max-width: 960px) {
