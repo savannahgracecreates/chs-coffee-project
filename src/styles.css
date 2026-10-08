@@ -56,8 +56,11 @@ header {
   }
   footer {
     color: white;
-    background-image: linear-gradient(rgba(32.19.15.0.5)), (rgba(32.19.15.0.5)) url('../images/secondstate.webp');
-  }
+    background-image: linear-gradient(rgba(32.19.15.0.5), rgba(32.19.15.0.5)) url('../images/secondstate.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;}
+
   footer a {
     color:aliceblue;
   }
