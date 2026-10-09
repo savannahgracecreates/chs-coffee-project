@@ -2,6 +2,8 @@ body {
     font-family: "Poppins", sans-serif;
     background: #20130F;
   }
+  
+
  
   .container {
     max-width: 1400px;
@@ -20,6 +22,10 @@ body {
   }
   .grid-3-columns-with-first-narrow {
     grid-template-columns: 1fr 2fr 2fr;
+  }
+
+  .instagram-embed {
+    margin: 30px 0;
   }
  
   .card {
@@ -64,6 +70,9 @@ body {
   }
   section.secondary-section {
     background-color: #f8f8f8;
+  }
+  section.third-section{
+    background-color: #ffff;
   }
   .img-responsive {
     width: 100%;
@@ -241,7 +250,7 @@ letter-spacing: 0%;
      .embed {
 aspect-ratio: 16 /9;
      }
-     
+    
 }
   
 
