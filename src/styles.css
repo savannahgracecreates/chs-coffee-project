@@ -26,6 +26,9 @@ body {
 
   .instagram-embed {
     margin: 30px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+
   }
  
   .card {
@@ -71,8 +74,10 @@ body {
   section.secondary-section {
     background-color: #f8f8f8;
   }
-  section.third-section{
+  .third-section{
     background-color: #ffff;
+    display: block;
+    max-width: 100%;
   }
   .img-responsive {
     width: 100%;
@@ -248,7 +253,7 @@ letter-spacing: 0%;
         display: none;
      }
      .embed {
-aspect-ratio: 16 /9;
+        aspect-ratio: 16/9;
      }
     
 }
